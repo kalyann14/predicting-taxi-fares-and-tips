@@ -1,11 +1,11 @@
-🚕 Yellow Taxi Trip Fare & Tip Prediction
+**Yellow Taxi Trip Fare & Tip Prediction**
 This project explores and models 2017 NYC Yellow Taxi trip data using machine learning to solve two real-world problems:
 
-🧠 Project Goals
+Project Goals:
 1)Predict Fare Amount : Applied Linear Regression to estimate taxi fare based on trip features.
 2)Predict Tip Behavior : Used Random Forest and XGBoost classifiers to predict whether a customer would leave a tip.
 
-🔍 Dataset Overview
+Dataset Overview
 Source: NYC Taxi & Limousine Commission
 ~22,000 records from 2017 Yellow Taxi trips
 Features include:
@@ -15,7 +15,7 @@ Payment type
 Fare, tip, tolls, and total amounts
 Pickup/Dropoff location IDs
 
-📊 Model Performance
+Model Performance:
 1. Linear Regression – Fare Prediction
 R²: 0.891
 MAE: 1.99
@@ -30,12 +30,12 @@ XGB (CV)	0.6689	0.7234	0.6950	0.6658
 XGB (Test)	0.6772	0.7455	0.7097	0.6790
 ✅ Random Forest slightly outperformed XGBoost on most metrics.
 
-🛠 Technologies & Tools
+Technologies & Tools:
 Python, Jupyter Notebook
 Pandas, NumPy, Scikit-learn, XGBoost
 Matplotlib, Seaborn
 
-💡 Key Takeaways
+Key Takeaways:
 Trip distance is the most significant predictor of fare.
 Tipping behavior is influenced by distance and payment type (card users tip more).
 Further feature engineering (e.g., day of week, time of day) could improve model performance.
